@@ -1,0 +1,79 @@
+/* I think CSS looks nicer when the rules are alphabetized */
+a:hover {
+	font-weight: bold;
+  /* The underlines look really dated */
+	text-decoration: none;
+}
+
+a:link {
+	color: #751818;
+  /* There's that pesky underline again */
+	text-decoration: none;
+}
+
+article h1, article h2 {
+	color: #853057;
+  /* Centered headings grab attention */
+	text-align: center;
+}
+
+article img {
+	display: block;
+  /* This picture is too big. Time to scale down */
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	width: 50%;
+}
+
+article p {
+  /* A little spacing around the text blocks looks much neater */
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+body {
+  /* This color works with the photo nicely */
+	background: #b2c9f9;
+}
+
+footer p {
+  /* I still don't fully understand what an 'em' is, but it seems like a relative unit of font size */
+	font-size: 0.6em;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+  /* Let's make this about 25% smaller than the main header */
+	font-size: 1.5em;
+}
+
+hr {
+  /* I really don't like the default styling for the horizontal rule */
+	border-style: solid;
+	color: #853057;
+}
+
+main {
+	margin: 0 auto;
+  /* This should keep the text area wide enough to read even on smartphones! */
+  /* Not that anybody is going to read this on a smartphone */
+	min-width: 600px;
+  /* But it's neat how using percentages lets me scale the site based on screen size */
+	width: 50%;
+}
+
+p, li {
+  /* I don't do Times New Roman. Why is that even still the default on browsers!? */
+	font-family: 'Verdana';
+	font-size: 0.85em;
+}
